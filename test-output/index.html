@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-mViewerScripts">
+              <span class="suite-name border-passed">mViewerScripts</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-mViewerScripts">
+                    <span>C:\Users\preethamd\workspace\mViewerAutomationTestScripts\resources\TestNgxml\TestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-mViewerScripts">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-mViewerScripts">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-mViewerScripts">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-mViewerScripts">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-mViewerScripts">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-mViewerScripts">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-mViewerScripts" class="hide-methods passed suite-mViewerScripts"> (hide)</a> <!-- hide-methods passed suite-mViewerScripts -->
+                      <a href="#" panel-name="suite-mViewerScripts" class="show-methods passed suite-mViewerScripts"> (show)</a> <!-- show-methods passed suite-mViewerScripts -->
+                    </span>
+                    <div class="method-list-content passed suite-mViewerScripts">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="loginmViewer">loginmViewer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="navigatetoServerStatistics">navigatetoServerStatistics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(button#createDB.bttn)">verifyHomePage(button#createDB.bttn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(#troubleshoot.navigable)">verifyHomePage(#troubleshoot.navigable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(#disconnect.disconnect.navigable)">verifyHomePage(#disconnect.disconnect.navigable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(#help.navigable)">verifyHomePage(#help.navigable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(button#console.bttn.navigable)">verifyHomePage(button#console.bttn.navigable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(span#hostname)">verifyHomePage(span#hostname)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(#graphs.navigable)">verifyHomePage(#graphs.navigable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(span#user)">verifyHomePage(span#user)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(#home.navigable.sel)">verifyHomePage(#home.navigable.sel)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyHomePage(#serverStats.navigable)">verifyHomePage(#serverStats.navigable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyLoginpage(input#databases, )">verifyLoginpage(input#databases, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyLoginpage(input#port, 27017)">verifyLoginpage(input#port, 27017)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyLoginpage(input#password, )">verifyLoginpage(input#password, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyLoginpage(input#host, 127.0.0.1)">verifyLoginpage(input#host, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mViewerScripts" title="org.imaginea.mviewer.tests.TestNGClass" hash-for-method="verifyLoginpage(input#username, )">verifyLoginpage(input#username, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-mViewerScripts -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-mViewerScripts" class="panel mViewerScripts">
+          <div class="suite-mViewerScripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.imaginea.mviewer.tests.TestNGClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginmViewer">
+                  </a> <!-- loginmViewer -->
+                  <span class="method-name">loginmViewer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigatetoServerStatistics">
+                  </a> <!-- navigatetoServerStatistics -->
+                  <span class="method-name">navigatetoServerStatistics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(button#createDB.bttn)">
+                  </a> <!-- verifyHomePage(button#createDB.bttn) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(button#createDB.bttn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(#troubleshoot.navigable)">
+                  </a> <!-- verifyHomePage(#troubleshoot.navigable) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(#troubleshoot.navigable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(#disconnect.disconnect.navigable)">
+                  </a> <!-- verifyHomePage(#disconnect.disconnect.navigable) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(#disconnect.disconnect.navigable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(#help.navigable)">
+                  </a> <!-- verifyHomePage(#help.navigable) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(#help.navigable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(button#console.bttn.navigable)">
+                  </a> <!-- verifyHomePage(button#console.bttn.navigable) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(button#console.bttn.navigable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(span#hostname)">
+                  </a> <!-- verifyHomePage(span#hostname) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(span#hostname)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(#graphs.navigable)">
+                  </a> <!-- verifyHomePage(#graphs.navigable) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(#graphs.navigable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(span#user)">
+                  </a> <!-- verifyHomePage(span#user) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(span#user)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(#home.navigable.sel)">
+                  </a> <!-- verifyHomePage(#home.navigable.sel) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(#home.navigable.sel)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePage(#serverStats.navigable)">
+                  </a> <!-- verifyHomePage(#serverStats.navigable) -->
+                  <span class="method-name">verifyHomePage</span>
+                  <span class="parameters">(#serverStats.navigable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginpage(input#databases, )">
+                  </a> <!-- verifyLoginpage(input#databases, ) -->
+                  <span class="method-name">verifyLoginpage</span>
+                  <span class="parameters">(input#databases, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginpage(input#port, 27017)">
+                  </a> <!-- verifyLoginpage(input#port, 27017) -->
+                  <span class="method-name">verifyLoginpage</span>
+                  <span class="parameters">(input#port, 27017)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginpage(input#password, )">
+                  </a> <!-- verifyLoginpage(input#password, ) -->
+                  <span class="method-name">verifyLoginpage</span>
+                  <span class="parameters">(input#password, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginpage(input#host, 127.0.0.1)">
+                  </a> <!-- verifyLoginpage(input#host, 127.0.0.1) -->
+                  <span class="method-name">verifyLoginpage</span>
+                  <span class="parameters">(input#host, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginpage(input#username, )">
+                  </a> <!-- verifyLoginpage(input#username, ) -->
+                  <span class="method-name">verifyLoginpage</span>
+                  <span class="parameters">(input#username, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mViewerScripts-class-passed -->
+        </div> <!-- panel mViewerScripts -->
+        <div panel-name="test-xml-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\preethamd\workspace\mViewerAutomationTestScripts\resources\TestNgxml\TestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;mViewerScripts&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;mViewerTesting with Firefox&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.imaginea.mviewer.tests.TestNGClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- mViewerTesting with Firefox --&gt;
+&lt;/suite&gt; &lt;!-- mViewerScripts --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for mViewerScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">mViewerTesting with Firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for mViewerScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for mViewerScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_mViewerScripts');
+function tableData_mViewerScripts() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginmViewer')
+data.setCell(0, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(0, 3, 1280);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'navigatetoServerStatistics')
+data.setCell(1, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(1, 3, 137);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginpage')
+data.setCell(2, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(2, 3, 80);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginpage')
+data.setCell(3, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(3, 3, 55);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginpage')
+data.setCell(4, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(4, 3, 45);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLoginpage')
+data.setCell(5, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(5, 3, 42);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginpage')
+data.setCell(6, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(6, 3, 41);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyHomePage')
+data.setCell(7, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(7, 3, 39);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHomePage')
+data.setCell(8, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(8, 3, 32);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyHomePage')
+data.setCell(9, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(9, 3, 31);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyHomePage')
+data.setCell(10, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(10, 3, 30);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyHomePage')
+data.setCell(11, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(11, 3, 29);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyHomePage')
+data.setCell(12, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(12, 3, 28);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyHomePage')
+data.setCell(13, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(13, 3, 25);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyHomePage')
+data.setCell(14, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(14, 3, 23);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyHomePage')
+data.setCell(15, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(15, 3, 22);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyHomePage')
+data.setCell(16, 2, 'org.imaginea.mviewer.tests.TestNGClass')
+data.setCell(16, 3, 21);
+window.suiteTableData['mViewerScripts']= { tableData: data, tableDiv: 'times-div-mViewerScripts'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-mViewerScripts">
+              </div> <!-- times-div-mViewerScripts -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for mViewerScripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-mViewerScripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.imaginea.mviewer.tests.TestNGClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginpage(input#host, 127.0.0.1)</span>
+                <span class="method-start">3688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginpage(input#port, 27017)</span>
+                <span class="method-start">3784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3826 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginpage(input#username, )</span>
+                <span class="method-start">3845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginpage(input#password, )</span>
+                <span class="method-start">3906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginpage(input#databases, )</span>
+                <span class="method-start">3978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">4020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginmViewer</span>
+                <span class="method-start">4038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(#home.navigable.sel)</span>
+                <span class="method-start">5338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(#serverStats.navigable)</span>
+                <span class="method-start">5395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(#graphs.navigable)</span>
+                <span class="method-start">5453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(#help.navigable)</span>
+                <span class="method-start">5496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(#troubleshoot.navigable)</span>
+                <span class="method-start">5552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(#disconnect.disconnect.navigable)</span>
+                <span class="method-start">5600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(span#hostname)</span>
+                <span class="method-start">5643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(span#user)</span>
+                <span class="method-start">5682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(button#console.bttn.navigable)</span>
+                <span class="method-start">5725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePage(button#createDB.bttn)</span>
+                <span class="method-start">5761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigatetoServerStatistics</span>
+                <span class="method-start">5800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">5945 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">5945 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">5965 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

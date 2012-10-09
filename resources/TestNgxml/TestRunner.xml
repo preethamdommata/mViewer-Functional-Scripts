@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="mViewerScripts" verbose="1" >
+  <test name="mViewerTesting with Firefox" parallel="methods" thread-count="2">
+  <parameter name = "Browser" value = "firefox"/>
+    <classes>
+       <class name="org.imaginea.mviewer.tests.TestNGClass"/>
+    </classes>
+  </test>
+</suite>

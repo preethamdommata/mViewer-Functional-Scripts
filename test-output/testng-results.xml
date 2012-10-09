@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mViewerScripts" duration-ms="5939" started-at="2012-10-09T07:10:12Z" finished-at="2012-10-09T07:10:18Z">
+    <groups>
+    </groups>
+    <test name="mViewerTesting with Firefox" duration-ms="5939" started-at="2012-10-09T07:10:12Z" finished-at="2012-10-09T07:10:18Z">
+      <class name="org.imaginea.mviewer.tests.TestNGClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2012-10-09T12:40:12Z" finished-at="2012-10-09T12:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2012-10-09T12:40:12Z" finished-at="2012-10-09T12:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeClass" is-config="true" duration-ms="3630" started-at="2012-10-09T12:40:12Z" finished-at="2012-10-09T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="34" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginpage(java.lang.String, java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyLoginpage" duration-ms="80" started-at="2012-10-09T12:40:16Z" data-provider="elementLocatorValues" finished-at="2012-10-09T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[input#host]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginpage(java.lang.String, java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyLoginpage" duration-ms="42" started-at="2012-10-09T12:40:16Z" data-provider="elementLocatorValues" finished-at="2012-10-09T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[input#port]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[27017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="9" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginpage(java.lang.String, java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyLoginpage" duration-ms="45" started-at="2012-10-09T12:40:16Z" data-provider="elementLocatorValues" finished-at="2012-10-09T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[input#username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginpage(java.lang.String, java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyLoginpage" duration-ms="55" started-at="2012-10-09T12:40:16Z" data-provider="elementLocatorValues" finished-at="2012-10-09T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[input#password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginpage(java.lang.String, java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyLoginpage" duration-ms="41" started-at="2012-10-09T12:40:16Z" data-provider="elementLocatorValues" finished-at="2012-10-09T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[input#databases]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2012-10-09T12:40:16Z" finished-at="2012-10-09T12:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginmViewer()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="loginmViewer" duration-ms="1280" started-at="2012-10-09T12:40:16Z" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.verifyLoginpage" finished-at="2012-10-09T12:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmViewer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="9" started-at="2012-10-09T12:40:17Z" finished-at="2012-10-09T12:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2012-10-09T12:40:17Z" finished-at="2012-10-09T12:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="31" started-at="2012-10-09T12:40:17Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#home.navigable.sel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="13" started-at="2012-10-09T12:40:17Z" finished-at="2012-10-09T12:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2012-10-09T12:40:17Z" finished-at="2012-10-09T12:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="39" started-at="2012-10-09T12:40:17Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#serverStats.navigable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="10" started-at="2012-10-09T12:40:17Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="28" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#graphs.navigable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="30" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#help.navigable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="16" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="32" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#troubleshoot.navigable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="29" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#disconnect.disconnect.navigable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="23" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[span#hostname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="9" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="21" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[span#user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="22" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[button#console.bttn.navigable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="5" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="verifyHomePage" duration-ms="25" started-at="2012-10-09T12:40:18Z" data-provider="elementLocatorValuesHome" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.loginmViewer" finished-at="2012-10-09T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[button#createDB.bttn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="navigatetoServerStatistics()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="navigatetoServerStatistics" duration-ms="137" started-at="2012-10-09T12:40:18Z" depends-on-methods="org.imaginea.mviewer.tests.TestNGClass.verifyHomePage" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoServerStatistics -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterMethod" is-config="true" duration-ms="7" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterClass" is-config="true" duration-ms="0" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterTest" is-config="true" duration-ms="1" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.imaginea.mviewer.tests.TestNGClass@101fcae3]" name="afterSuite" is-config="true" duration-ms="0" started-at="2012-10-09T12:40:18Z" finished-at="2012-10-09T12:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.imaginea.mviewer.tests.TestNGClass -->
+    </test> <!-- mViewerTesting with Firefox -->
+  </suite> <!-- mViewerScripts -->
+</testng-results>
